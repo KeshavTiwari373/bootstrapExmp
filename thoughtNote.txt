@@ -1,0 +1,20 @@
+1) Created a Navigation bar using "nav-pills" on every page and used "active" keyword
+    to show the active "nav-item". Also used "Disable" for the link on which we currently are. 
+
+2) Created profile dropdown and provided various links to redirect to the desired page.
+
+3) Created profiles in card formate with image, title, button elements inside.
+    Also added:-
+        - image height
+        - card border
+        - text background color
+        - font size
+        - font wight
+        - border color
+        - italic Heading
+	- Margin-top
+
+4) To make it fully responsive, i used:-
+    - container-fluid to achieve 100% width
+    - nav-pills
+    - multiple breakpoints for laptop, ipad, mobile

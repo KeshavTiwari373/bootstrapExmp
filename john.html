@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Abraham</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- This is John Abraham profile card where you'll know more about him.
+            here i used nav to show active nav-item. From here we can go to
+            other profiles and Main page or Home page also -->
+    <div class="container-fluid">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" data-bs-toggle ="dropdown" href="#" aria-expanded="false" role="button">Profiles</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./bill.html" >Bill Gates</a></li>
+                <li><a class="dropdown-item" href="./mukesh.html" >Mukesh Ambani</a></li>
+                <li><a class="dropdown-item" href="./jeff.html" >Jeff Bezos</a></li>
+                <li><a class="dropdown-item disabled" href="./john.html" >John Abraham</a></li>
+    
+              </ul>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link disabled" href="#">Logout</a>
+            </li>
+        </ul>
+        <h1><em>John Abraham Profile</em></h1>
+        <div class="card border-2" style="width: 18rem;">
+            <img src="https://www.easterneye.biz/wp-content/uploads/2020/04/John.jpg" height="191.2px" class="card-img-top" alt="John Abraham">
+            <div class="card-body">
+                <h5 class="card-title">John Abraham</h5>
+                <p class="card-text">John Abraham (born 17 December 1972) is an Indian actor, model, writer, and film producer who works in Hindi films. Known for his stoic action hero persona, he is a recipient of a National Film Award along with nominations for four Filmfare Awards. Abraham has appeared in Forbes India's Celebrity 100 list since 2017 based on his income and popularity.</p>
+                
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
